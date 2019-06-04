@@ -3,13 +3,13 @@ class Query {
 
 	protected $prefix = "prefix_";
 	protected $serverName = "yourServerName";
-	protected $user = "userName";
+	protected $userName = "userName";
 	protected $password = "password";
 	protected $dbName = "dbName";
 
 	public function _Select($table, $params, $where, $order = false, $ord = '')
 	{ 
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "SELECT ";
@@ -57,7 +57,7 @@ class Query {
 	
 	public function _SelectInRange($table, $params, $where, $order = false, $ord = '')
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "SELECT ";
@@ -93,7 +93,7 @@ class Query {
 
 	public function _Insert($table, $params)
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "INSERT INTO ".$mysqli->real_escape_string($table)." (";
@@ -122,7 +122,7 @@ class Query {
 
 	public function _Update($table, $params, $where, $symbol = 0)
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "UPDATE ".$mysqli->real_escape_string($table)." SET ";
@@ -151,7 +151,7 @@ class Query {
 
 	public function _Delete($table, $where)
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "DELETE FROM ".$mysqli->real_escape_string($table);
@@ -167,7 +167,7 @@ class Query {
 
 	public function _SelectMoreOrLess($table, $params, $where, $symbols, $order = false, $ord='')
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "SELECT ";
@@ -214,7 +214,7 @@ class Query {
 
 	public function _getCount($table, $params)
 	{
-		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+		$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 		mysqli_query($mysqli, "SET NAMES 'utf8'");
 		$table = $this->prefix.$table;
 		$query = "SELECT COUNT(*) FROM ".$mysqli->real_escape_string($table)." WHERE";
@@ -241,7 +241,7 @@ class Query {
 
 		if(count($res)>0)
 		{
-			$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+			$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 			mysqli_query($mysqli, "SET NAMES 'utf8'");
 			$stmt = mysqli_query( $mysqli, $query);  
 			if( $stmt === false)  
@@ -268,7 +268,7 @@ class Query {
 		}
 		else
 		{
-			$mysqli = new mysqli( $this->serverName, $this->prefix.$this->$userName, $this->password, $this->prefix.$this->dbName);
+			$mysqli = new mysqli( $this->serverName, $this->prefix.$this->userName, $this->password, $this->prefix.$this->dbName);
 			mysqli_query($mysqli, "SET NAMES 'utf8'");
 			$stmt = mysqli_query( $mysqli, $query);  
 			if( $stmt === false)  
