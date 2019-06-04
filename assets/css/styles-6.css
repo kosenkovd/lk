@@ -1,0 +1,209 @@
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #38bfa4;
+  border: 2px solid #38bfa4;
+}
+.header .main-nav .nav.active > a {
+  background: #32ab93;
+}
+.steps .step .title .number {
+  background: #47c9af;
+  border: 5px solid #6ed5c0;
+}
+.faq .panel .panel-title .panel-toggle .fa,
+.steps .step .title .text {
+  color: #6ed5c0;
+}
+.pagination li a:hover {
+  color: #2c9782;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #bdece2;
+}
+.searchbox-icon,
+.searchbox-submit {
+  color: #5bcfb8;
+}
+
+
+.features > .head{
+    color: #47c9af;
+}
+.border-dot.padding {
+  border-right: 4px solid #47c9af;
+}
+.border-dot::after {
+  background: #47c9af;
+}
+#hellomsg p{
+  background: #47c9af;
+}
+a {
+  color: #47c9af;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #47c9af;
+  border: 2px solid #47c9af;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  border: 2px solid #47c9af;
+  color: #47c9af;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #47c9af;
+  border: 2px solid #47c9af;
+}
+.highlight {
+  color: #47c9af;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #47c9af;
+  border-color: #47c9af;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #47c9af;
+}
+.header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+  border: 1px solid #47c9af;
+  background: #47c9af;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #47c9af;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #47c9af;
+}
+.why .figure .figure-caption a:hover {
+  color: #47c9af;
+}
+.testimonials .item .source {
+  color: #47c9af;
+}
+.cta-section .counting {
+  color: #47c9af;
+}
+.features-tabbed .tab-content .desc ul .fa {
+  color: #47c9af;
+}
+.features-tabbed .tab-content .figure .figure-caption a:hover {
+  color: #47c9af;
+}
+.nav-tabs > li.active {
+  border-top-color: #47c9af;
+}
+.nav-tabs > li.active > a {
+  color: #47c9af;
+}
+.nav-tabs > li.active > a {
+  -webkit-box-shadow: inset 0 3px 0 #47c9af;
+  -moz-box-shadow: inset 0 3px 0 #47c9af;
+  box-shadow: inset 0 3px 0 #47c9af;
+}
+.nav-tabs > li.active:hover > a {
+  color: #47c9af;
+}
+.faq .panel .panel-title .active {
+  color: #47c9af;
+}
+.faq .panel .panel-title:hover .fa {
+  color: #47c9af;
+}
+.contact-section .contact-form .error {
+  color: #47c9af;
+}
+.contact-other-section .other-info li a:hover {
+  color: #47c9af;
+}
+.contact-other-section .other-info li .fa {
+  background: #47c9af;
+}
+.blog-slider .flex-caption a.more-link:hover {
+  color: #47c9af;
+}
+.blog-list .post .content .meta li a:hover {
+  color: #47c9af;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .figure .figure-caption a:hover {
+  color: #47c9af;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .custom-list-style li .fa {
+  color: #47c9af;
+}
+.blog-entry-wrapper .custom-quote .fa {
+  color: #47c9af;
+}
+.blog-page .header-blog .main-nav .nav .nav-item a:hover {
+  color: #47c9af;
+}
+.blog-page .header-blog h1.logo a {
+  color: #47c9af;
+}
+.story-section .team .member .social-list a:hover {
+  background: #47c9af;
+}
+.modal.modal-video button.close:hover {
+  color: #47c9af;
+}
+.access-section .forgot-password a:hover {
+  color: #47c9af;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #47c9af;
+}
+.pagination li a {
+  color: #47c9af;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #47c9af;
+}
+.searchbox-container .searchbox.searchbox-open .searchbox-icon,
+.searchbox-container .searchbox.searchbox-open .searchbox-submit {
+  background: #47c9af;
+}
+.searchbox-icon,
+.searchbox-submit {
+    background: #47c9af;
+}
+.header.scrolled h1.logo a {
+  color: #47c9af;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #47c9af;
+  border-color: #47c9af;
+}
+@media (min-width: 992px) {
+  .download-area .qrcode-holder .qrcode .caption {
+    color: #253340;
+  }
+}
+@media(max-width: 600px){
+	#flyingbanner{
+        border: 4px solid #47c9af;
+    }
+}
+@media(max-width: 731px){
+    .floating-mobile-kalendar{
+	    border: 1px solid #47c9af;
+	}
+}
+#realname:hover{
+    color:#47c9af;
+}
+.feature-dot::after{
+    border: 8px solid #47c9af;
+}
+.feature-line{
+    background: #47c9af;
+}

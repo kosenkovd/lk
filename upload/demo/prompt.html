@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>jQuery Ajax Upload demo - ajaxUploadPrompt()</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css" />
+
+<!-- javascript -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script src="../jquery.ajaxupload.js"></script>
+
+<style>
+body {
+	color: #666;
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	margin: 0px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0 30px;
+	min-height: 400px;
+	width: 500px;
+}
+
+#promptzone {
+	border: 3px dashed #ccc;
+	cursor: pointer;
+	padding-top: 40px;
+	margin: 0 auto;
+	height: 100px;
+	width: 450px;
+}
+
+#promptzone span {
+	font-size: 10px;
+}
+</style>
+<script>
+jQuery(function ($) {
+	// Set fieldname
+	$.ajaxUploadSettings.name = 'uploads[]';
+	// Set promptzone
+	$('#promptzone').ajaxUploadPrompt({
+		url : '../upload.php',
+		beforeSend : function () {
+			$('#promptzone, #result').hide();
+		},
+		onprogress : function (e) {
+			if (e.lengthComputable) {
+				var percentComplete = e.loaded / e.total;
+				// Show in progressbar
+				$( "#progressbar" ).progressbar({ 
+					value: percentComplete*100,
+					complete: function () {
+						$(this).progressbar( "destroy" );
+					}
+				});
+			}
+		},
+		error : function () {
+		},
+		success : function (data) {
+			data = $.parseJSON(data);
+			var html = '';
+			if (data.error) {
+				html += '<h2>Error</h2>';
+				html += '<p>' + data.error + '</p>';
+			}
+			if (data.success) {
+				html += '<h2>Success</h2>';
+				for (var i = 0, len = data.success.length; i < len ; i++) {
+					html += '<p>' + data.success[i].filename + '</p>';
+				}
+			}
+			if (data.failed) {
+				html += '<h2>Failed</h2>';
+				html += '<p>Files failed: ' + data.failed + '</p>';
+			}
+			$( "#progressbar" ).progressbar( "destroy" );
+			$('#result').html(html);
+			$('#promptzone, #result').show();
+		}
+	});
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<h1>ajaxUploadPrompt()</h1>
+	<div id="promptzone">
+		Click here to choose images to upload
+		<br />
+		<span>Max 20 files, total 8mb and only image files</span>
+	</div>
+	<div id="progressbar"></div>
+	<div id="result"></div>
+</div>
+<a href="https://github.com/codler/jQuery-Ajax-Upload"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+</html>

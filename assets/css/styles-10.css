@@ -1,0 +1,253 @@
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #67728a;
+  border: 2px solid #67728a;
+}
+a.btn-ghost:hover,
+.btn-ghost:hover {
+  background: #4a6781;
+  border: 1px solid #4a6781;
+}
+.footer .footer-col.connect .btn-cta-primary:hover {
+  background: #4a6781;
+  border-color: #4a6781;
+}
+.header .main-nav .nav.active > a {
+  background: #5c667b;
+}
+.steps .step .title .number {
+  background: #737f97;
+  border: 5px solid #909aad;
+}
+.blog-page .header-blog h1.logo a .sub {
+  color: #253340;
+}
+.faq .panel .panel-title .panel-toggle .fa {
+  color: #909aad;
+}
+.steps .step .title .text {
+  color: #909aad;
+}
+.pagination li a:hover {
+  color: #515a6d;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #cbcfd8;
+}
+.searchbox-icon,
+.searchbox-submit {
+  color: #828ca2;
+}
+.config-panel #color-options li.theme-1 a {
+  background: #ec6952;
+}
+.config-panel #color-options li.theme-2 a {
+  background-color: #28a5a8;
+}
+.config-panel #color-options li.theme-3 a {
+  background-color: #497cb1;
+}
+.config-panel #color-options li.theme-4 a {
+  background-color: #f89d29;
+}
+.config-panel #color-options li.theme-5 a {
+  background-color: #34495e;
+}
+.config-panel #color-options li.theme-6 a {
+  background-color: #47c9af;
+}
+.config-panel #color-options li.theme-7 a {
+  background-color: #a06081;
+}
+.config-panel #color-options li.theme-8 a {
+  background-color: #96a94b;
+}
+.config-panel #color-options li.theme-9 a {
+  background-color: #f06060;
+}
+.config-panel #color-options li.theme-10 a {
+  background-color: #737f97;
+}
+
+
+.features > .head{
+    color: #737f97;
+}
+.border-dot.padding {
+  border-right: 4px solid #737f97;
+}
+.border-dot::after {
+  background: #737f97;
+}
+#hellomsg p{
+  background: #737f97;
+}
+a {
+  color: #737f97;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #737f97;
+  border: 2px solid #737f97;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  border: 2px solid #737f97;
+  color: #737f97;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #737f97;
+  border: 2px solid #737f97;
+}
+.highlight {
+  color: #737f97;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #737f97;
+  border-color: #737f97;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #737f97;
+}
+.header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+  border: 1px solid #737f97;
+  background: #737f97;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #737f97;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #737f97;
+}
+.why .figure .figure-caption a:hover {
+  color: #737f97;
+}
+.testimonials .item .source {
+  color: #737f97;
+}
+.cta-section .counting {
+  color: #737f97;
+}
+.features-tabbed .tab-content .desc ul .fa {
+  color: #737f97;
+}
+.features-tabbed .tab-content .figure .figure-caption a:hover {
+  color: #737f97;
+}
+.nav-tabs > li.active {
+  border-top-color: #737f97;
+}
+.nav-tabs > li.active > a {
+  color: #737f97;
+}
+.nav-tabs > li.active > a {
+  -webkit-box-shadow: inset 0 3px 0 #737f97;
+  -moz-box-shadow: inset 0 3px 0 #737f97;
+  box-shadow: inset 0 3px 0 #737f97;
+}
+.nav-tabs > li.active:hover > a {
+  color: #737f97;
+}
+.faq .panel .panel-title .active {
+  color: #737f97;
+}
+.faq .panel .panel-title:hover .fa {
+  color: #737f97;
+}
+.contact-section .contact-form .error {
+  color: #737f97;
+}
+.contact-other-section .other-info li a:hover {
+  color: #737f97;
+}
+.contact-other-section .other-info li .fa {
+  background: #737f97;
+}
+.blog-slider .flex-caption a.more-link:hover {
+  color: #737f97;
+}
+.blog-list .post .content .meta li a:hover {
+  color: #737f97;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .figure .figure-caption a:hover {
+  color: #737f97;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .custom-list-style li .fa {
+  color: #737f97;
+}
+.blog-entry-wrapper .custom-quote .fa {
+  color: #737f97;
+}
+.blog-page .header-blog .main-nav .nav .nav-item a:hover {
+  color: #737f97;
+}
+.blog-page .header-blog h1.logo a {
+  color: #737f97;
+}
+.story-section .team .member .social-list a:hover {
+  background: #737f97;
+}
+.modal.modal-video button.close:hover {
+  color: #737f97;
+}
+.access-section .forgot-password a:hover {
+  color: #737f97;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #737f97;
+}
+.pagination li a {
+  color: #737f97;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #737f97;
+}
+.searchbox-container .searchbox.searchbox-open .searchbox-icon,
+.searchbox-container .searchbox.searchbox-open .searchbox-submit {
+  background: #737f97;
+}
+.searchbox-icon,
+.searchbox-submit {
+    background: #737f97;
+}
+.header.scrolled h1.logo a {
+  color: #737f97;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #737f97;
+  border-color: #737f97;
+}
+@media (min-width: 992px) {
+  .download-area .qrcode-holder .qrcode .caption {
+    color: #253340;
+  }
+}
+@media(max-width: 600px){
+	#flyingbanner{
+        border: 4px solid #737f97;
+    }
+}
+@media(max-width: 731px){
+    .floating-mobile-kalendar{
+	    border: 1px solid #737f97;
+	}
+}
+#realname:hover{
+    color:#737f97;
+}
+.feature-dot::after{
+    border: 8px solid #737f97;
+}
+.feature-line{
+    background: #737f97;
+}

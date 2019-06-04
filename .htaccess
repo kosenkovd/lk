@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) ./?%{QUERY_STRING}
+
+RewriteCond% {HTTP_HOST} ^lk \ .admireal \ .ru [NC] 
+RewriteCond% {REQUEST_URI}! ^ / lk / public_html / 
+RewriteRule ^ (. *) $ / lk / public_html / $ 1 [L, QSA] 

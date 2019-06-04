@@ -1,0 +1,1 @@
+﻿window.location.replace('http://dev.calculator.mediasoft.su/');

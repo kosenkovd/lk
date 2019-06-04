@@ -1,0 +1,210 @@
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #ee4949;
+  border: 2px solid #ee4949;
+}
+.header .main-nav .nav.active > a {
+  background: #ec3131;
+}
+.steps .step .title .number {
+  background: #f06060;
+  border: 5px solid #f48f8f;
+}
+.faq .panel .panel-title .panel-toggle .fa,
+.steps .step .title .text {
+  color: #f48f8f;
+}
+.pagination li a:hover {
+  color: #e91a1a;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #f06060;
+}
+.searchbox-icon,
+.searchbox-submit {
+  color: #f27777;
+}
+
+
+.features > .head{
+    color: #f06060;
+}
+.border-dot.padding {
+  border-right: 4px solid #f06060;
+}
+.border-dot::after {
+  background: #f06060;
+}
+#hellomsg p{
+  background: #f06060;
+}
+a {
+  color: #f06060;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #f06060;
+  border: 2px solid #f06060;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  border: 2px solid #f06060;
+  color: #f06060;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #f06060;
+  border: 2px solid #f06060;
+}
+.highlight {
+  color: #f06060;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #f06060;
+  border-color: #f06060;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #f06060;
+}
+.header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+  border: 1px solid #f06060;
+  background: #f06060;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #f06060;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #f06060;
+}
+.why .figure .figure-caption a:hover {
+  color: #f06060;
+}
+.testimonials .item .source {
+  color: #f06060;
+}
+.cta-section .counting {
+  color: #f06060;
+}
+.features-tabbed .tab-content .desc ul .fa {
+  color: #f06060;
+}
+.features-tabbed .tab-content .figure .figure-caption a:hover {
+  color: #f06060;
+}
+.nav-tabs > li.active {
+  border-top-color: #f06060;
+}
+.nav-tabs > li.active > a {
+  color: #f06060;
+}
+.nav-tabs > li.active > a {
+  -webkit-box-shadow: inset 0 3px 0 #f06060;
+  -moz-box-shadow: inset 0 3px 0 #f06060;
+  box-shadow: inset 0 3px 0 #f06060;
+}
+.nav-tabs > li.active:hover > a {
+  color: #f06060;
+}
+.faq .panel .panel-title .active {
+  color: #f06060;
+}
+.faq .panel .panel-title:hover .fa {
+  color: #f06060;
+}
+.contact-section .contact-form .error {
+  color: #f06060;
+}
+.contact-other-section .other-info li a:hover {
+  color: #f06060;
+}
+.contact-other-section .other-info li .fa {
+  background: #f06060;
+}
+.blog-slider .flex-caption a.more-link:hover {
+  color: #f06060;
+}
+.blog-list .post .content .meta li a:hover {
+  color: #f06060;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .figure .figure-caption a:hover {
+  color: #f06060;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .custom-list-style li .fa {
+  color: #f06060;
+}
+.blog-entry-wrapper .custom-quote .fa {
+  color: #f06060;
+}
+.blog-page .header-blog .main-nav .nav .nav-item a:hover {
+  color: #f06060;
+}
+.blog-page .header-blog h1.logo a {
+  color: #f06060;
+}
+.story-section .team .member .social-list a:hover {
+  background: #f06060;
+}
+.modal.modal-video button.close:hover {
+  color: #f06060;
+}
+.access-section .forgot-password a:hover {
+  color: #f06060;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #f06060;
+}
+.pagination li a {
+  color: #f06060;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #f06060;
+}
+.searchbox-container .searchbox.searchbox-open .searchbox-icon,
+.searchbox-container .searchbox.searchbox-open .searchbox-submit {
+  background: #f06060;
+}
+
+.searchbox-icon,
+.searchbox-submit {
+    background: #f06060;
+}
+.header.scrolled h1.logo a {
+  color: #f06060;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #f06060;
+  border-color: #f06060;
+}
+@media (min-width: 992px) {
+  .download-area .qrcode-holder .qrcode .caption {
+    color: #253340;
+  }
+}
+@media(max-width: 600px){
+	#flyingbanner{
+        border: 4px solid #f06060;
+    }
+}
+@media(max-width: 731px){
+    .floating-mobile-kalendar{
+	    border: 1px solid #f06060;
+	}
+}
+#realname:hover{
+    color:#f06060;
+}
+.feature-dot::after{
+    border: 8px solid #f06060;
+}
+.feature-line{
+    background: #f06060;
+}

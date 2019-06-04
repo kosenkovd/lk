@@ -1,0 +1,264 @@
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #e9553b;
+  border: 2px solid #e9553b;
+}
+a.btn-ghost:hover,
+.btn-ghost:hover {
+  background: #4a6781;
+  border: 1px solid #4a6781;
+}
+.header .main-nav .nav.active > a {
+  background: #e74124;
+}
+.steps .step .title .number {
+  background: #ec6952;
+  border: 5px solid #f19180;
+}
+.blog-page .header-blog h1.logo a .sub {
+  color: #253340;
+}
+.faq .panel .panel-title .panel-toggle .fa {
+  color: #f19180;
+}
+.steps .step .title .text {
+  color: #f19180;
+}
+.footer .footer-col.connect .btn-cta-primary {
+  background: #5d80a1;
+  border-color: #5d80a1;
+}
+.footer .footer-col.connect .btn-cta-primary:hover {
+  background: #4a6781;
+  border-color: #4a6781;
+}
+.footer .footer-col a {
+  color: #6d8dab;
+}
+.footer .footer-col a:hover {
+  color: #8da6bd;
+}
+
+.pagination li a:hover {
+  color: #da3518;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #fbe1dc;
+}
+.searchbox-icon,
+.searchbox-submit {
+  color: #ef7d69;
+}
+.config-panel #color-options li.theme-1 a {
+  background: #ec6952;
+}
+.config-panel #color-options li.theme-2 a {
+  background-color: #28a5a8;
+}
+.config-panel #color-options li.theme-3 a {
+  background-color: #497cb1;
+}
+.config-panel #color-options li.theme-4 a {
+  background-color: #f89d29;
+}
+.config-panel #color-options li.theme-5 a {
+  background-color: #34495e;
+}
+.config-panel #color-options li.theme-6 a {
+  background-color: #47c9af;
+}
+.config-panel #color-options li.theme-7 a {
+  background-color: #a06081;
+}
+.config-panel #color-options li.theme-8 a {
+  background-color: #96a94b;
+}
+.config-panel #color-options li.theme-9 a {
+  background-color: #f06060;
+}
+.config-panel #color-options li.theme-10 a {
+  background-color: #737f97;
+}
+
+
+.features > .head{
+    color: #ec6952;
+}
+.border-dot.padding {
+  border-right: 4px solid #ec6952;
+}
+.border-dot::after {
+  background: #ec6952;
+}
+#hellomsg p{
+  background: #ec6952;
+}
+a {
+  color: #ec6952;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #ec6952;
+  border: 2px solid #ec6952;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  border: 2px solid #ec6952;
+  color: #ec6952;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #ec6952;
+  border: 2px solid #ec6952;
+}
+.highlight {
+  color: #ec6952;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #ec6952;
+  border-color: #ec6952;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #ec6952;
+}
+.header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+  border: 1px solid #ec6952;
+  background: #ec6952;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #ec6952;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #ec6952;
+}
+.why .figure .figure-caption a:hover {
+  color: #ec6952;
+}
+.testimonials .item .source {
+  color: #ec6952;
+}
+.cta-section .counting {
+  color: #ec6952;
+}
+.features-tabbed .tab-content .desc ul .fa {
+  color: #ec6952;
+}
+.features-tabbed .tab-content .figure .figure-caption a:hover {
+  color: #ec6952;
+}
+.nav-tabs > li.active {
+  border-top-color: #ec6952;
+}
+.nav-tabs > li.active > a {
+  color: #ec6952;
+}
+.nav-tabs > li.active > a {
+  -webkit-box-shadow: inset 0 3px 0 #ec6952;
+  -moz-box-shadow: inset 0 3px 0 #ec6952;
+  box-shadow: inset 0 3px 0 #ec6952;
+}
+.nav-tabs > li.active:hover > a {
+  color: #ec6952;
+}
+.faq .panel .panel-title .active {
+  color: #ec6952;
+}
+.faq .panel .panel-title:hover .fa {
+  color: #ec6952;
+}
+.contact-section .contact-form .error {
+  color: #ec6952;
+}
+.contact-other-section .other-info li a:hover {
+  color: #ec6952;
+}
+.contact-other-section .other-info li .fa {
+  background: #ec6952;
+}
+.blog-slider .flex-caption a.more-link:hover {
+  color: #ec6952;
+}
+.blog-list .post .content .meta li a:hover {
+  color: #ec6952;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .figure .figure-caption a:hover {
+  color: #ec6952;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .custom-list-style li .fa {
+  color: #ec6952;
+}
+.blog-entry-wrapper .custom-quote .fa {
+  color: #ec6952;
+}
+.blog-page .header-blog .main-nav .nav .nav-item a:hover {
+  color: #ec6952;
+}
+.blog-page .header-blog h1.logo a {
+  color: #ec6952;
+}
+.story-section .team .member .social-list a:hover {
+  background: #ec6952;
+}
+.modal.modal-video button.close:hover {
+  color: #ec6952;
+}
+.access-section .forgot-password a:hover {
+  color: #ec6952;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #ec6952;
+}
+.pagination li a {
+  color: #ec6952;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #ec6952;
+}
+.searchbox-container .searchbox.searchbox-open .searchbox-icon,
+.searchbox-container .searchbox.searchbox-open .searchbox-submit {
+  background: #ec6952;
+}
+.searchbox-icon,
+.searchbox-submit {
+    background: #ec6952;
+}
+.header.scrolled h1.logo a {
+  color: #ec6952;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #ec6952;
+  border-color: #ec6952;
+}
+@media (min-width: 992px) {
+  .download-area .qrcode-holder .qrcode .caption {
+    color: #253340;
+  }
+}
+@media(max-width: 600px){
+	#flyingbanner{
+        border: 4px solid #ec6952;
+    }
+}
+@media(max-width: 731px){
+    .floating-mobile-kalendar{
+	    border: 1px solid #ec6952;
+	}
+}
+#realname:hover{
+    color:#ec6952;
+}
+.feature-dot::after{
+    border: 8px solid #ec6952;
+}
+.feature-line{
+    background: #ec6952;
+}

@@ -1,0 +1,214 @@
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #239193;
+  border: 2px solid #239193;
+}
+.header .main-nav .nav.active > a {
+  background: #1e7d7f;
+}
+.steps .step .title .number {
+  background: #28a5a8;
+  border: 5px solid #34cbcf;
+}
+.blog-page .header-blog h1.logo a .sub {
+  color: #253340;
+}
+.faq .panel .panel-title .panel-toggle .fa {
+  color: #34cbcf;
+}
+.steps .step .title .text {
+  color: #34cbcf;
+}
+.pagination li a:hover {
+  color: #19686a;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #87e0e2;
+}
+.searchbox-icon,
+.searchbox-submit {
+  color: #2db9bd;
+}
+
+
+.features > .head{
+    color: #28a5a8;
+}
+.border-dot.padding {
+  border-right: 4px solid #28a5a8;
+}
+.border-dot::after {
+  background: #28a5a8;
+}
+#hellomsg p{
+  background: #28a5a8;
+}
+a {
+  color: #28a5a8;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #28a5a8;
+  border: 2px solid #28a5a8;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  border: 2px solid #28a5a8;
+  color: #28a5a8;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #28a5a8;
+  border: 2px solid #28a5a8;
+}
+.highlight {
+  color: #28a5a8;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #28a5a8;
+  border-color: #28a5a8;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #28a5a8;
+}
+.header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+  border: 1px solid #28a5a8;
+  background: #28a5a8;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #28a5a8;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #28a5a8;
+}
+.why .figure .figure-caption a:hover {
+  color: #28a5a8;
+}
+.testimonials .item .source {
+  color: #28a5a8;
+}
+.cta-section .counting {
+  color: #28a5a8;
+}
+.features-tabbed .tab-content .desc ul .fa {
+  color: #28a5a8;
+}
+.features-tabbed .tab-content .figure .figure-caption a:hover {
+  color: #28a5a8;
+}
+.nav-tabs > li.active {
+  border-top-color: #28a5a8;
+}
+.nav-tabs > li.active > a {
+  color: #28a5a8;
+}
+.nav-tabs > li.active > a {
+  -webkit-box-shadow: inset 0 3px 0 #28a5a8;
+  -moz-box-shadow: inset 0 3px 0 #28a5a8;
+  box-shadow: inset 0 3px 0 #28a5a8;
+}
+.nav-tabs > li.active:hover > a {
+  color: #28a5a8;
+}
+.faq .panel .panel-title .active {
+  color: #28a5a8;
+}
+.faq .panel .panel-title:hover .fa {
+  color: #28a5a8;
+}
+.contact-section .contact-form .error {
+  color: #28a5a8;
+}
+.contact-other-section .other-info li a:hover {
+  color: #28a5a8;
+}
+.contact-other-section .other-info li .fa {
+  background: #28a5a8;
+}
+.blog-slider .flex-caption a.more-link:hover {
+  color: #28a5a8;
+}
+.blog-list .post .content .meta li a:hover {
+  color: #28a5a8;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .figure .figure-caption a:hover {
+  color: #28a5a8;
+}
+.blog-entry-wrapper .blog-entry .blog-entry-content .custom-list-style li .fa {
+  color: #28a5a8;
+}
+.blog-entry-wrapper .custom-quote .fa {
+  color: #28a5a8;
+}
+.blog-page .header-blog .main-nav .nav .nav-item a:hover {
+  color: #28a5a8;
+}
+.blog-page .header-blog h1.logo a {
+  color: #28a5a8;
+}
+.story-section .team .member .social-list a:hover {
+  background: #28a5a8;
+}
+.modal.modal-video button.close:hover {
+  color: #28a5a8;
+}
+.access-section .forgot-password a:hover {
+  color: #28a5a8;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+  color: #28a5a8;
+}
+.pagination li a {
+  color: #28a5a8;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #28a5a8;
+}
+.searchbox-container .searchbox.searchbox-open .searchbox-icon,
+.searchbox-container .searchbox.searchbox-open .searchbox-submit {
+  background: #28a5a8;
+}
+.searchbox-icon,
+.searchbox-submit {
+    background: #28a5a8;
+}
+.header.scrolled h1.logo a {
+  color: #28a5a8;
+}
+.header.scrolled .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+  background: #28a5a8;
+  border-color: #28a5a8;
+}
+@media (min-width: 992px) {
+  .download-area .qrcode-holder .qrcode .caption {
+    color: #253340;
+  }
+}
+@media(max-width: 600px){
+	#flyingbanner{
+        border: 4px solid #28a5a8;
+    }
+}
+@media(max-width: 731px){
+    .floating-mobile-kalendar{
+	    border: 1px solid #28a5a8;
+	}
+}
+#realname:hover{
+    color:#28a5a8;
+}
+.feature-dot::after{
+    border: 8px solid #28a5a8;
+}
+.feature-line{
+    background: #28a5a8;
+}
