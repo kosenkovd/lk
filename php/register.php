@@ -15,6 +15,8 @@ function Randomize($length = 8){
   return $string;
 }
 
+$emailAddr = "yourEmail";
+
 $password=Randomize(8);
 $password_hash=password_hash($password, PASSWORD_BCRYPT);
 $name=htmlspecialchars($_POST['name']);
@@ -60,7 +62,7 @@ $message = "Уважаемый(ая), ".$fio."! Добро пожаловать 
 С уважением,
 команда AdmiReal";
 
-_mail ('support@perfect-crm.ru', $email, $subject, $message); 
+_mail ($emailAddr, $email, $subject, $message); 
 
 print "<script language='Javascript'>alert(\"Пользователь успешно зарегистрирован!\"); window.location.href='http://calc.wdenkosw.bget.ru'; </script> "; 
 

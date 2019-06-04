@@ -38,7 +38,9 @@ $message = "Ваш пароль был изменен.
 С уважением,
 команда Mediasoft.";
 
-_mail ('support@perfect-crm.ru', $login, $subject, $message);
+$emailAddr = "yourEmail";
+
+_mail ($emailAddr, $login, $subject, $message);
 
 $arr1["password_hash"] = password_hash($newPass, PASSWORD_BCRYPT);
 $arr2["email"] = $login;

@@ -1,7 +1,7 @@
 <?php
 class Query {
 
-	protected $prefix = "admireal_";
+	protected $prefix = "prefix_";
 	protected $serverName = "yourServerName";
 	protected $user = "userName";
 	protected $password = "password";
